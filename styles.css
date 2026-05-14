@@ -1235,6 +1235,10 @@ img {
   .logo img { height: 56px; }
   .site-nav { font-size: 0.9rem; gap: 20px; }
   .header-icon { width: 32px; height: 32px; }
+  /* Popup area clienti: modale più larga per non tagliare le voci del menu */
+  .access-popup-modal { width: min(96vw, 440px); padding: 32px 26px 20px; }
+  .access-popup-menu { gap: 22px; }
+  .access-popup-menu-item { font-size: 0.88rem; }
   /* Footer monitor grandi: container più largo del content container così
      brand e contatti si attaccano ai bordi dello schermo, non al container. */
   .site-footer .container.footer-grid,
